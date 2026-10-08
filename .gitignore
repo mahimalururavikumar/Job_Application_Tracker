@@ -1,0 +1,31 @@
+# Dependencies & Environments
+backend/venv/
+backend/env/
+frontend/node_modules/
+frontend/dist/
+
+# Database & Storage
+*.db
+*.sqlite
+*.sqlite3
+job_tracker.db
+
+# Environment variables
+.env
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
